@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url("img/main.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.head{
+    font-family: Georgia;
+    font-size:5.5rem;
+    text-align: center;
+    font-weight: 600;
+    animation: lights 4s 800ms linear infinite;
+    padding:1rem;
+}
+@keyframes lights {
+    0% {
+      color: #297373;
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: #297373;
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: #297373;
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: #297373;
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: #297373;
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+
+.signup-container {
+    position: relative;
+    left:25rem;
+    top:4rem;
+    background-color:#39393A;
+    color:#E6E6E6;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    text-align: center;
+    padding:2rem;
+}
+
+label, input {
+    margin-bottom: 1.3rem;
+    font-size: 1.4rem;
+}
+
+button {
+    margin-top: 2rem;
+    padding:1rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #297373;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b4a4a;
+}
+
+#sign{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}

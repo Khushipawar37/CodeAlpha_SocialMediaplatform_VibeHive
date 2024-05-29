@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+.friend-requests {
+    margin-top: 1rem;
+    position: relative;
+    left:28rem;
+}
+
+.friend-requests h4 {
+    color:#39393A;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.request {
+    background-color:#39393A;
+    color:#E6E6E6;
+    width:fit-content;
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-bottom: 1rem;
+}
+
+.right .request .info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right .request .action {
+    display: flex;
+    gap: 1rem;
+}
